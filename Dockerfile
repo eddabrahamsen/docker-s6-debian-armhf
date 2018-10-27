@@ -1,6 +1,6 @@
 FROM debian:stretch-slim
 
-ENV ARCH=amd64
+ENV ARCH=armhf
 
 RUN apt-get update \
   && apt-get install -y apt-utils locales \
